@@ -42,5 +42,10 @@ az vm stop --resource-group MyResourceGroup --name MyVm
 # Do webapp - Start/Stop/Restart
 #Note: --resource-group or -g, --name or -n, -p => app service plan
 
+# Another way to deploy the code with single command
+> az webapp up --location eastus --name <forwebapp> --html
+# Ex: If you are uploading html based files then add --html or else leave it
+# what this command does for us is, it creates resourcegroup, app service plan and webapp
+
 
 
