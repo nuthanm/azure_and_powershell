@@ -6,7 +6,7 @@
 > az group list
 # Output: Returns in JSON Format
 
-> To create a new resource group
+# To create a new resource group
 > az group create --name <cligroup> --location eastus
 # output: Returns in JSON Format
 
@@ -23,3 +23,24 @@ az vm start -g MyResourceGroup -n MyVm
 
 # To stop VM
 az vm stop --resource-group MyResourceGroup --name MyVm
+
+
+# Creating a new WebAPP Using azure cli
+
+# To create a new resource group
+> az group create --name <cligroup> --location eastus
+# output: Returns in JSON Format
+
+# To create a new app service plan
+> az appservice plan create -g "resourcegroupname" -n "nameofappserviceplan"
+# output: Returns in JSON Format
+
+# To create a new webapp
+> az webapp create -g "resourcegroupname" --n "nameofappserviceplan" -p "appserviceplan"
+# output: Returns in JSON Format
+
+# Do webapp - Start/Stop/Restart
+#Note: --resource-group or -g, --name or -n, -p => app service plan
+
+
+
