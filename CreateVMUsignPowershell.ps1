@@ -38,3 +38,14 @@
 <#
   Even we can start and restart the VMs as well using this powershell
 #>
+
+<#
+Reference: When a vm created in azure, the following resources are going to create
+ - Data disk 
+ - Network Security Group
+ - IP Address
+ - Virtual Network
+ - Network Interface Card
+ - Virtual machine
+ - [Optional] Shutdown resource
+#>
