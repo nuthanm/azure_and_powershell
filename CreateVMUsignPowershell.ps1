@@ -1,5 +1,10 @@
 # Create a Virtual Machine using PowerShell
 
+# To know what and all azure commands we have using powershell
+# Ex: azure web app
+# > Get-Command *AzWebApp*
+# It list all the commands match with AzWebApp
+
 # Deploy/Create Virtual machines using the following ways,
 <# 
 1. Using Azure Portal
